@@ -1,0 +1,2 @@
+# hakimdiskon
+terms of service
