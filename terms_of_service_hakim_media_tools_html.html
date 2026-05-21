@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms of Service</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    .hero {
+      height: 430px;
+      background:
+        linear-gradient(
+          135deg,
+          #2e3742 0%,
+          #3b4754 35%,
+          #2f3944 60%,
+          #44515f 100%
+        );
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 140%;
+      height: 140%;
+      background: rgba(255,255,255,0.03);
+      transform: rotate(-25deg);
+    }
+
+    .hero::before {
+      top: -60%;
+      left: -30%;
+    }
+
+    .hero::after {
+      bottom: -70%;
+      right: -30%;
+    }
+
+    .brand {
+      position: absolute;
+      top: 30px;
+      left: 45px;
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      z-index: 2;
+    }
+
+    .hero-title {
+      position: absolute;
+      top: 120px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: white;
+      z-index: 2;
+    }
+
+    .hero-title h1 {
+      font-size: 92px;
+      font-weight: 300;
+      line-height: 1.05;
+      letter-spacing: 1px;
+    }
+
+    .content {
+      background: #f3f3f3;
+      padding: 55px 100px 90px;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 55px;
+    }
+
+    .content p {
+      font-size: 22px;
+      line-height: 2;
+      margin-bottom: 55px;
+      color: #222;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        height: 320px;
+      }
+
+      .hero-title h1 {
+        font-size: 54px;
+      }
+
+      .content {
+        padding: 40px 25px 60px;
+      }
+
+      .content p {
+        font-size: 18px;
+      }
+
+      .brand {
+        left: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="brand">Hakim Media Tools</div>
+
+    <div class="hero-title">
+      <h1>Terms of<br>Service</h1>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2>Terms of Service</h2>
+
+    <p>
+      This application is used for personal TikTok content automation through n8n workflows.
+    </p>
+
+    <p>
+      Users are responsible for all uploaded content and must comply with TikTok Terms of Service.
+    </p>
+
+    <p>
+      No user data is sold or shared with third parties.
+    </p>
+
+    <p>
+      For inquiries:
+    </p>
+
+    <p>
+      faishalkim@gmail.com
+    </p>
+  </section>
+
+</body>
+</html>
